@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED896B4F1EB6FF65003DFEF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED896B4E1EB6FF65003DFEF1 /* AppDelegate.swift */; };
+		ED896B511EB6FF65003DFEF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED896B501EB6FF65003DFEF1 /* ViewController.swift */; };
+		ED896B541EB6FF65003DFEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED896B521EB6FF65003DFEF1 /* Main.storyboard */; };
+		ED896B561EB6FF65003DFEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED896B551EB6FF65003DFEF1 /* Assets.xcassets */; };
+		ED896B591EB6FF65003DFEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED896B571EB6FF65003DFEF1 /* LaunchScreen.storyboard */; };
+		ED896B641EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED896B631EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldTests.swift */; };
+		ED896B6F1EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED896B6E1EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED896B601EB6FF66003DFEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED896B431EB6FF65003DFEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED896B4A1EB6FF65003DFEF1;
+			remoteInfo = "The Other Side Of The World";
+		};
+		ED896B6B1EB6FF66003DFEF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED896B431EB6FF65003DFEF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED896B4A1EB6FF65003DFEF1;
+			remoteInfo = "The Other Side Of The World";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED896B4B1EB6FF65003DFEF1 /* The Other Side Of The World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Other Side Of The World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED896B4E1EB6FF65003DFEF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED896B501EB6FF65003DFEF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED896B531EB6FF65003DFEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED896B551EB6FF65003DFEF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED896B581EB6FF65003DFEF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED896B5A1EB6FF65003DFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED896B5F1EB6FF66003DFEF1 /* The Other Side Of The WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Other Side Of The WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED896B631EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Other_Side_Of_The_WorldTests.swift; sourceTree = "<group>"; };
+		ED896B651EB6FF66003DFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED896B6A1EB6FF66003DFEF1 /* The Other Side Of The WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Other Side Of The WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED896B6E1EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Other_Side_Of_The_WorldUITests.swift; sourceTree = "<group>"; };
+		ED896B701EB6FF66003DFEF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED896B481EB6FF65003DFEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED896B5C1EB6FF66003DFEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED896B671EB6FF66003DFEF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED896B421EB6FF65003DFEF1 = {
+			isa = PBXGroup;
+			children = (
+				ED896B4D1EB6FF65003DFEF1 /* The Other Side Of The World */,
+				ED896B621EB6FF66003DFEF1 /* The Other Side Of The WorldTests */,
+				ED896B6D1EB6FF66003DFEF1 /* The Other Side Of The WorldUITests */,
+				ED896B4C1EB6FF65003DFEF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED896B4C1EB6FF65003DFEF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED896B4B1EB6FF65003DFEF1 /* The Other Side Of The World.app */,
+				ED896B5F1EB6FF66003DFEF1 /* The Other Side Of The WorldTests.xctest */,
+				ED896B6A1EB6FF66003DFEF1 /* The Other Side Of The WorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED896B4D1EB6FF65003DFEF1 /* The Other Side Of The World */ = {
+			isa = PBXGroup;
+			children = (
+				ED896B4E1EB6FF65003DFEF1 /* AppDelegate.swift */,
+				ED896B501EB6FF65003DFEF1 /* ViewController.swift */,
+				ED896B521EB6FF65003DFEF1 /* Main.storyboard */,
+				ED896B551EB6FF65003DFEF1 /* Assets.xcassets */,
+				ED896B571EB6FF65003DFEF1 /* LaunchScreen.storyboard */,
+				ED896B5A1EB6FF65003DFEF1 /* Info.plist */,
+			);
+			path = "The Other Side Of The World";
+			sourceTree = "<group>";
+		};
+		ED896B621EB6FF66003DFEF1 /* The Other Side Of The WorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED896B631EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldTests.swift */,
+				ED896B651EB6FF66003DFEF1 /* Info.plist */,
+			);
+			path = "The Other Side Of The WorldTests";
+			sourceTree = "<group>";
+		};
+		ED896B6D1EB6FF66003DFEF1 /* The Other Side Of The WorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED896B6E1EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldUITests.swift */,
+				ED896B701EB6FF66003DFEF1 /* Info.plist */,
+			);
+			path = "The Other Side Of The WorldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED896B4A1EB6FF65003DFEF1 /* The Other Side Of The World */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED896B731EB6FF66003DFEF1 /* Build configuration list for PBXNativeTarget "The Other Side Of The World" */;
+			buildPhases = (
+				ED896B471EB6FF65003DFEF1 /* Sources */,
+				ED896B481EB6FF65003DFEF1 /* Frameworks */,
+				ED896B491EB6FF65003DFEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Other Side Of The World";
+			productName = "The Other Side Of The World";
+			productReference = ED896B4B1EB6FF65003DFEF1 /* The Other Side Of The World.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED896B5E1EB6FF66003DFEF1 /* The Other Side Of The WorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED896B761EB6FF66003DFEF1 /* Build configuration list for PBXNativeTarget "The Other Side Of The WorldTests" */;
+			buildPhases = (
+				ED896B5B1EB6FF66003DFEF1 /* Sources */,
+				ED896B5C1EB6FF66003DFEF1 /* Frameworks */,
+				ED896B5D1EB6FF66003DFEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED896B611EB6FF66003DFEF1 /* PBXTargetDependency */,
+			);
+			name = "The Other Side Of The WorldTests";
+			productName = "The Other Side Of The WorldTests";
+			productReference = ED896B5F1EB6FF66003DFEF1 /* The Other Side Of The WorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED896B691EB6FF66003DFEF1 /* The Other Side Of The WorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED896B791EB6FF66003DFEF1 /* Build configuration list for PBXNativeTarget "The Other Side Of The WorldUITests" */;
+			buildPhases = (
+				ED896B661EB6FF66003DFEF1 /* Sources */,
+				ED896B671EB6FF66003DFEF1 /* Frameworks */,
+				ED896B681EB6FF66003DFEF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED896B6C1EB6FF66003DFEF1 /* PBXTargetDependency */,
+			);
+			name = "The Other Side Of The WorldUITests";
+			productName = "The Other Side Of The WorldUITests";
+			productReference = ED896B6A1EB6FF66003DFEF1 /* The Other Side Of The WorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED896B431EB6FF65003DFEF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Garrett Wayne";
+				TargetAttributes = {
+					ED896B4A1EB6FF65003DFEF1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HB4DAQ84KB;
+						ProvisioningStyle = Automatic;
+					};
+					ED896B5E1EB6FF66003DFEF1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HB4DAQ84KB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED896B4A1EB6FF65003DFEF1;
+					};
+					ED896B691EB6FF66003DFEF1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HB4DAQ84KB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED896B4A1EB6FF65003DFEF1;
+					};
+				};
+			};
+			buildConfigurationList = ED896B461EB6FF65003DFEF1 /* Build configuration list for PBXProject "The Other Side Of The World" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED896B421EB6FF65003DFEF1;
+			productRefGroup = ED896B4C1EB6FF65003DFEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED896B4A1EB6FF65003DFEF1 /* The Other Side Of The World */,
+				ED896B5E1EB6FF66003DFEF1 /* The Other Side Of The WorldTests */,
+				ED896B691EB6FF66003DFEF1 /* The Other Side Of The WorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED896B491EB6FF65003DFEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED896B591EB6FF65003DFEF1 /* LaunchScreen.storyboard in Resources */,
+				ED896B561EB6FF65003DFEF1 /* Assets.xcassets in Resources */,
+				ED896B541EB6FF65003DFEF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED896B5D1EB6FF66003DFEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED896B681EB6FF66003DFEF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED896B471EB6FF65003DFEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED896B511EB6FF65003DFEF1 /* ViewController.swift in Sources */,
+				ED896B4F1EB6FF65003DFEF1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED896B5B1EB6FF66003DFEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED896B641EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED896B661EB6FF66003DFEF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED896B6F1EB6FF66003DFEF1 /* The_Other_Side_Of_The_WorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED896B611EB6FF66003DFEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED896B4A1EB6FF65003DFEF1 /* The Other Side Of The World */;
+			targetProxy = ED896B601EB6FF66003DFEF1 /* PBXContainerItemProxy */;
+		};
+		ED896B6C1EB6FF66003DFEF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED896B4A1EB6FF65003DFEF1 /* The Other Side Of The World */;
+			targetProxy = ED896B6B1EB6FF66003DFEF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED896B521EB6FF65003DFEF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED896B531EB6FF65003DFEF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED896B571EB6FF65003DFEF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED896B581EB6FF65003DFEF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED896B711EB6FF66003DFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED896B721EB6FF66003DFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED896B741EB6FF66003DFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HB4DAQ84KB;
+				INFOPLIST_FILE = "The Other Side Of The World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GarrettWayne.The-Other-Side-Of-The-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED896B751EB6FF66003DFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HB4DAQ84KB;
+				INFOPLIST_FILE = "The Other Side Of The World/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GarrettWayne.The-Other-Side-Of-The-World";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED896B771EB6FF66003DFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HB4DAQ84KB;
+				INFOPLIST_FILE = "The Other Side Of The WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GarrettWayne.The-Other-Side-Of-The-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Other Side Of The World.app/The Other Side Of The World";
+			};
+			name = Debug;
+		};
+		ED896B781EB6FF66003DFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HB4DAQ84KB;
+				INFOPLIST_FILE = "The Other Side Of The WorldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GarrettWayne.The-Other-Side-Of-The-WorldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Other Side Of The World.app/The Other Side Of The World";
+			};
+			name = Release;
+		};
+		ED896B7A1EB6FF66003DFEF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HB4DAQ84KB;
+				INFOPLIST_FILE = "The Other Side Of The WorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GarrettWayne.The-Other-Side-Of-The-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "The Other Side Of The World";
+			};
+			name = Debug;
+		};
+		ED896B7B1EB6FF66003DFEF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HB4DAQ84KB;
+				INFOPLIST_FILE = "The Other Side Of The WorldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "GarrettWayne.The-Other-Side-Of-The-WorldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "The Other Side Of The World";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED896B461EB6FF65003DFEF1 /* Build configuration list for PBXProject "The Other Side Of The World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED896B711EB6FF66003DFEF1 /* Debug */,
+				ED896B721EB6FF66003DFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED896B731EB6FF66003DFEF1 /* Build configuration list for PBXNativeTarget "The Other Side Of The World" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED896B741EB6FF66003DFEF1 /* Debug */,
+				ED896B751EB6FF66003DFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED896B761EB6FF66003DFEF1 /* Build configuration list for PBXNativeTarget "The Other Side Of The WorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED896B771EB6FF66003DFEF1 /* Debug */,
+				ED896B781EB6FF66003DFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED896B791EB6FF66003DFEF1 /* Build configuration list for PBXNativeTarget "The Other Side Of The WorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED896B7A1EB6FF66003DFEF1 /* Debug */,
+				ED896B7B1EB6FF66003DFEF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED896B431EB6FF65003DFEF1 /* Project object */;
+}
