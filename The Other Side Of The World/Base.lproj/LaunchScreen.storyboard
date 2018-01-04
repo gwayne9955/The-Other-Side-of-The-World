@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,14 +20,61 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QSF-zw-uTb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2018 Garrett Wayne. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="YKO-se-yHK">
+                                        <rect key="frame" x="8" y="522" width="309" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Other Side of The World" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="abH-YX-Lbp">
+                                        <rect key="frame" x="8" y="122" width="309" height="43"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OtherSideOfTheWorld_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="Zxy-Pv-b8T">
+                                        <rect key="frame" x="96.5" y="220" width="128" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="128" id="59n-Dv-gJr"/>
+                                            <constraint firstAttribute="height" constant="128" id="lWX-Am-AmA"/>
+                                            <constraint firstAttribute="width" secondItem="Zxy-Pv-b8T" secondAttribute="height" multiplier="1:1" id="w5m-J9-s2U"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="YKO-se-yHK" firstAttribute="leading" secondItem="abH-YX-Lbp" secondAttribute="leading" id="1c3-gg-SgK"/>
+                                    <constraint firstAttribute="trailing" secondItem="abH-YX-Lbp" secondAttribute="trailing" constant="3" id="Q85-g0-urZ"/>
+                                    <constraint firstItem="Zxy-Pv-b8T" firstAttribute="centerY" secondItem="QSF-zw-uTb" secondAttribute="centerY" id="R3I-fT-zvr"/>
+                                    <constraint firstItem="YKO-se-yHK" firstAttribute="trailing" secondItem="abH-YX-Lbp" secondAttribute="trailing" id="Vxf-0n-k6R"/>
+                                    <constraint firstItem="abH-YX-Lbp" firstAttribute="leading" secondItem="QSF-zw-uTb" secondAttribute="leadingMargin" id="X8U-4T-VO7"/>
+                                    <constraint firstItem="abH-YX-Lbp" firstAttribute="top" secondItem="QSF-zw-uTb" secondAttribute="top" constant="122" id="a50-YW-RLH"/>
+                                    <constraint firstAttribute="bottom" secondItem="YKO-se-yHK" secondAttribute="bottom" constant="25" id="b69-if-PjE"/>
+                                    <constraint firstItem="Zxy-Pv-b8T" firstAttribute="centerX" secondItem="QSF-zw-uTb" secondAttribute="centerX" id="uQn-q5-n3v"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="QSF-zw-uTb" secondAttribute="trailing" id="ZeD-HZ-LPN"/>
+                            <constraint firstItem="QSF-zw-uTb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eoK-Z9-kGA"/>
+                            <constraint firstItem="QSF-zw-uTb" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="sKA-1J-ZO2"/>
+                            <constraint firstItem="QSF-zw-uTb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="uJd-WN-U4d"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="48.75" y="371.25"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="OtherSideOfTheWorld_Icon" width="1024" height="1024"/>
+    </resources>
 </document>
