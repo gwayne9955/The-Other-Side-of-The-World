@@ -1,8 +1,8 @@
 # The Other Side of The World
 The Other Side of The World finds the antipode of the user's current location and displays it to them
 
-![App Icon](OtherSideOfTheWorld_Icon.png)
+<img src="OtherSideOfTheWorld_Icon.png" height="30%" width="30%" alt="App Icon">
 
-![ScreenShot1](Screenshot1.png)
+<img src="Screenshot1.png" height="50%" width="50%" alt="Screenshot 1">
 
-![ScreenShot2](Screenshot2.png)
+<img src="Screenshot2.png" height="50%" width="50%" alt="Screenshot 2">
